@@ -60,9 +60,9 @@ define(['managerAPI',
             inherit: 'instructions',
             name: 'instamp',
             templateUrl: 'instamp.jst',
-            title: 'Speeded judgment task',
+            title: 'Instructions for the AMP',
             piTemplate: true,
-            header: 'Speeded judgment task'
+            header: 'Instructions for the AMP'
         }],
         amp: [{
             type:'time',
