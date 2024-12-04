@@ -70,11 +70,12 @@ define(['managerAPI',
             scriptUrl: 'amp.js'
         }],
         
-        explainv: [{
+        explain: [{
             inherit: 'instructions',
-            name: 'excplainv',
-            templateUrl: 'explainv.jst',
+            name: 'excplain',
+            templateUrl: 'explain.jst',
             title: 'AMP explained',
+            piTemplate: true,
             header: 'AMP explained'
         }],
 
@@ -94,7 +95,7 @@ define(['managerAPI',
         
         {inherit:'amp'},
 
-        {inherit:'explainv'},
+        {inherit:'explain'},
         
         {inherit: 'lastpage'}
     ]);
