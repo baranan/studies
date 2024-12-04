@@ -63,6 +63,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/amp4.
 			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
 		},
 
+		trialsInBlock : [16, 16, 16], //Number of trials in each block 
+
 		targetCats :  [
 			{
 				nameForLogging : 'chinese',  //Will be used in the logging
